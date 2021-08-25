@@ -5,7 +5,7 @@ Welcome to **nlp.id**! We build this website to encourage further advancement on
 ## Languages
 
 - [Bahasa Indonesia (Indonesian)](indonesian/index.md)
-- [Bahasa Jawa (Javanese)](#)
+- [Bahasa Jawa (Javanese)](javanese/index.md)
 - [Bahasa Sunda (Sundanese)](#)
 
 ## Contributors
