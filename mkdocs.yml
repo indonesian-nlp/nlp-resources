@@ -1,3 +1,19 @@
 site_name: nlp.id - Indonesian NLP
+repo_url: https://github.com/nlp-id/nlp-id.github.io
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
