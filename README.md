@@ -4,7 +4,7 @@ Welcome to **nlp.id**! We build this website to encourage further advancement on
 
 ## Languages
 
-- [Bahasa Indonesia (Indonesian)](https://nlp-id.github.io/indonesian/automatic-speech-recognition/)
+- [Bahasa Indonesia (Indonesian)](https://nlp-id.github.io/indonesian/)
 - [Bahasa Jawa (Javanese)](#)
 - [Bahasa Sunda (Sundanese)](#)
 
