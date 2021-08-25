@@ -4,7 +4,7 @@ Welcome to **nlp.id**! We build this website to encourage further advancement on
 
 ## Languages
 
-- [Bahasa Indonesia (Indonesian)](indonesian/index.md)
+- [Bahasa Indonesia (Indonesian)](indonesian/automatic-speech-recognition.md)
 - [Bahasa Jawa (Javanese)](#)
 - [Bahasa Sunda (Sundanese)](#)
 
