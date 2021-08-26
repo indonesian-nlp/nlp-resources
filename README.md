@@ -6,7 +6,7 @@ Welcome to **nlp.id**! We build this website to encourage further advancement on
 
 - [Bahasa Indonesia (Indonesian)](https://nlp-id.github.io/indonesian/)
 - [Bahasa Jawa (Javanese)](https://nlp-id.github.io/javanese/)
-- [Bahasa Sunda (Sundanese)](#)
+- [Bahasa Sunda (Sundanese)](https://nlp-id.github.io/sundanese/)
 
 ## Contributors
 
