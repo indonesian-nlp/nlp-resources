@@ -1,4 +1,22 @@
-# Automatic Speech Recognition
+---
+title: "Automatic Speech Recognition"
+subtitle: "Sundanese Speech Recognition"
+excerpt: "Speech recognition is an interdisciplinary subfield of computer science and computational linguistics that develops methodologies and technologies that enable the recognition and translation of spoken language into text."
+date: 2021-06-01
+author: "Wilson Wongso, Steven Limcorn and AI-Research.id team"
+draft: false
+layout: list-sidebar
+images:
+- /blog/assets/css-grid-thumbnail.png
+series:
+- huggingface jax flax event
+tags:
+- gpt-2
+- language model
+categories:
+# layout options: single or single-sidebar
+layout: single-sidebar
+---
 
 ## Models
 

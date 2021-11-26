@@ -1,4 +1,22 @@
-# Translation
+---
+title: "Machine Translation"
+subtitle: "Models and its Dataset for Sundanese Machine Translation"
+excerpt: "Machine Translation is the task of automatically converting one natural language into another, preserving the meaning of the input text, and producing fluent text in the output language."
+date: 2021-06-01
+author: "Wilson Wongso, Steven Limcorn and AI-Research.id team"
+draft: false
+layout: list-sidebar
+images:
+- /blog/assets/css-grid-thumbnail.png
+series:
+- huggingface jax flax event
+tags:
+- gpt-2
+- language model
+categories:
+# layout options: single or single-sidebar
+layout: single-sidebar
+---
 
 ## Models
 

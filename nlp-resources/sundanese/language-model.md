@@ -1,4 +1,22 @@
-# Language Modeling
+---
+title: "Sundanese Language Model"
+subtitle: "Sundanese Language Models and its Dataset"
+excerpt: "Language Model is a model that computes probability of a sentence (sequence of words) or the probability of a next word in a sequence."
+date: 2021-06-01
+author: "Wilson Wongso, Steven Limcorn and AI-Research.id team"
+draft: false
+layout: list-sidebar
+images:
+- /blog/assets/css-grid-thumbnail.png
+series:
+- huggingface jax flax event
+tags:
+- gpt-2
+- language model
+categories:
+# layout options: single or single-sidebar
+layout: single-sidebar
+---
 
 ## Datasets
 
