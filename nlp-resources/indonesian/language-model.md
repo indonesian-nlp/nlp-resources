@@ -14,7 +14,6 @@ tags:
 - gpt-2
 - language model
 categories:
-- report
 # layout options: single or single-sidebar
 layout: single-sidebar
 ---
