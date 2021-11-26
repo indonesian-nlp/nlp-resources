@@ -1,4 +1,22 @@
-# Text Classification
+---
+title: "Text Classification"
+subtitle: "Models and its Dataset for Indonesian Text Classification"
+excerpt: "Text Classification is the processing of labeling or organizing text data into groups. It forms a fundamental part of Natural Language Processing."
+date: 2021-06-01
+author: "Wilson Wongso, Steven Limcorn and AI-Research.id team"
+draft: false
+layout: list-sidebar
+images:
+- /blog/assets/css-grid-thumbnail.png
+series:
+- huggingface jax flax event
+tags:
+- gpt-2
+- language model
+categories:
+# layout options: single or single-sidebar
+layout: single-sidebar
+---
 
 ## Models
 

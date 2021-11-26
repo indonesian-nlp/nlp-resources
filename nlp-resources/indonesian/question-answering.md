@@ -1,4 +1,24 @@
-# Question Answering
+---
+title: "Question Answering"
+subtitle: "Question Answering and its Datasets"
+excerpt: "Building Systems that automatically answer questions posed by humans in a natural language"
+date: 2021-06-01
+author: "Wilson Wongso, Steven Limcorn and AI-Research.id team"
+draft: false
+layout: list-sidebar
+images:
+- /blog/assets/css-grid-thumbnail.png
+series:
+- huggingface jax flax event
+tags:
+- gpt-2
+- language model
+categories:
+# layout options: single or single-sidebar
+layout: single-sidebar
+---
+
+# 
 
 ## Models
 | Name                                                            | Description                                                                                             | Author | Link                                                                        |
