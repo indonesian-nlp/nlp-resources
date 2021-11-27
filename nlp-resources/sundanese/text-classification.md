@@ -11,8 +11,10 @@ images:
 series:
 - huggingface jax flax event
 tags:
-- gpt-2
-- language model
+- GPT-2
+- BERT
+- RoBERTa
+- Language Model
 categories:
 # layout options: single or single-sidebar
 layout: single-sidebar

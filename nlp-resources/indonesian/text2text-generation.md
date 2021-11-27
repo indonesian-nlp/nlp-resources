@@ -11,8 +11,8 @@ images:
 series:
 - huggingface jax flax event
 tags:
-- gpt-2
-- language model
+- T5
+- Language Model
 categories:
 # layout options: single or single-sidebar
 layout: single-sidebar

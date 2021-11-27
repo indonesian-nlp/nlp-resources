@@ -11,8 +11,7 @@ images:
 series:
 - huggingface jax flax event
 tags:
-- gpt-2
-- language model
+- Speech Recognition
 categories:
 # layout options: single or single-sidebar
 layout: single-sidebar
