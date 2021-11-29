@@ -1,5 +1,5 @@
 ---
-title: "Automatic Speech Recognition"
+title: "Indonesian Automatic Speech Recognition"
 subtitle: "Speech Recognition for Indonesian, Javanese and Sundanese."
 excerpt: "Speech recognition is an interdisciplinary subfield of computer science and computational linguistics that develops methodologies and technologies that enable the recognition and translation of spoken language into text."
 date: 2021-06-01

@@ -1,5 +1,5 @@
 ---
-title: "Text Classification"
+title: "Indonesian Text Classification"
 subtitle: "Models and its Dataset for Indonesian Text Classification"
 excerpt: "Text Classification is the processing of labeling or organizing text data into groups. It forms a fundamental part of Natural Language Processing."
 date: 2021-06-01

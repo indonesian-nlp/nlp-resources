@@ -1,5 +1,5 @@
 ---
-title: "Text2Text Generation"
+title: "Indonesian Text2Text Generation"
 subtitle: "Models and its Dataset for Indonesian Text2Text Generation"
 excerpt: "The task of producing a shorter version of one or several documents that preserves most of the input's meaning"
 date: 2021-06-01

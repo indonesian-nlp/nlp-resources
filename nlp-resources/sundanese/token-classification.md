@@ -1,5 +1,5 @@
 ---
-title: "Token Classification"
+title: "Sundanese Token Classification"
 subtitle: "Models and its Dataset for Sundanese Token Classification"
 excerpt: "The Token classification Task is similar to text classification, except each token within the text receives a prediction. A common use of this task is Named Entity Recognition (NER)."
 date: 2021-06-01

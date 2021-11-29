@@ -1,5 +1,5 @@
 ---
-title: "Text Classification"
+title: "Javanese Text Classification"
 subtitle: "Models and its Dataset for Javanese Text Classification"
 excerpt: "Text Classification is the processing of labeling or organizing text data into groups. It forms a fundamental part of Natural Language Processing."
 date: 2021-06-01

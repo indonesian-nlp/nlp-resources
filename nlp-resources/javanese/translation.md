@@ -1,5 +1,5 @@
 ---
-title: "Machine Translation"
+title: "Javanese Machine Translation"
 subtitle: "Models and its Dataset for Javanese Machine Translation"
 excerpt: "Machine Translation is the task of automatically converting one natural language into another, preserving the meaning of the input text, and producing fluent text in the output language."
 date: 2021-06-01

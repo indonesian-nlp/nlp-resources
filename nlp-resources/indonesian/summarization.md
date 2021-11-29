@@ -1,5 +1,5 @@
 ---
-title: "Text Summarization"
+title: "Indonesian Text Summarization"
 subtitle: "Model and its Dataset for Indonesian Text Summarization"
 excerpt: "The task of producing a shorter version of one or several documents that preserves most of the input's meaning"
 date: 2021-06-01
