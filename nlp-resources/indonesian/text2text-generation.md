@@ -18,7 +18,6 @@ categories:
 layout: single-sidebar
 ---
 
-
 ## Models
 
 | Name                                   | Description                                                                                                                                                                              | Author           | Link                                                                   |

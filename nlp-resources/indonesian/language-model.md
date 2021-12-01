@@ -20,7 +20,6 @@ categories:
 layout: single-sidebar
 ---
 
-
 ## Masked Language Models
 
 | Name                                         | Description                                                                                                                                                                                                          | Author                       | Link                                                                          |
