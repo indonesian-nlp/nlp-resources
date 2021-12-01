@@ -1,5 +1,5 @@
-site_name: nlp.id - Indonesian NLP
-repo_url: https://github.com/nlp-id/nlp-id.github.io
+site_name: Indonesian NLP Resources
+repo_url: https://github.com/indonesian-nlp/nlp-resources
 theme:
   name: material
   palette:
