@@ -1,0 +1,1080 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Wilson Wongso, Steven Limcorn and AI-Research.id team">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.0.2">
+    
+    
+      
+        <title>Indonesian Language Model - Indonesian NLP Resources</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.816931ca.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9204c3b2.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>function __md_scope(e,t,_){return new URL(_||(t===localStorage?"../..":"../.."),location).pathname+"."+e}function __md_get(e,t=localStorage,_){return JSON.parse(t.getItem(__md_scope(e,t,_)))}function __md_set(e,t,_=localStorage,o){try{_.setItem(__md_scope(e,_,o),JSON.stringify(t))}catch(e){}}</script>
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#masked-language-models" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Indonesian NLP Resources" class="md-header__button md-logo" aria-label="Indonesian NLP Resources" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Indonesian NLP Resources
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Indonesian Language Model
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/indonesian-nlp/nlp-resources/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Indonesian NLP Resources" class="md-nav__button md-logo" aria-label="Indonesian NLP Resources" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Indonesian NLP Resources
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/indonesian-nlp/nlp-resources/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../_index/" class="md-nav__link">
+        Indonesian NLP Resources
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Indonesian
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Indonesian" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Indonesian
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../_index/" class="md-nav__link">
+        Indonesian NLP Resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../automatic-speech-recognition/" class="md-nav__link">
+        Indonesian Automatic Speech Recognition
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Indonesian Language Model
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Indonesian Language Model
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#masked-language-models" class="md-nav__link">
+    Masked Language Models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#causalgenerative-language-models" class="md-nav__link">
+    Causal/Generative Language Models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datasets" class="md-nav__link">
+    Datasets
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../question-answering/" class="md-nav__link">
+        Indonesian Question Answering
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summarization/" class="md-nav__link">
+        Indonesian Text Summarization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../text-classification/" class="md-nav__link">
+        Indonesian Text Classification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../text2text-generation/" class="md-nav__link">
+        Indonesian Text2Text Generation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../token-classification/" class="md-nav__link">
+        Indonesian Token Classification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../translation/" class="md-nav__link">
+        Indonesian Machine Translation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Javanese
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Javanese" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Javanese
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../javanese/_index/" class="md-nav__link">
+        Javanese NLP Resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../javanese/automatic-speech-recognition/" class="md-nav__link">
+        Javanese Automatic Speech Recognition
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../javanese/language-model/" class="md-nav__link">
+        Javanese Language Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../javanese/text-classification/" class="md-nav__link">
+        Javanese Text Classification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../javanese/token-classification/" class="md-nav__link">
+        Javanese Token Classification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../javanese/translation/" class="md-nav__link">
+        Javanese Machine Translation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Sundanese
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sundanese" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Sundanese
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sundanese/_index/" class="md-nav__link">
+        Sundanese NLP Resources
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sundanese/automatic-speech-recognition/" class="md-nav__link">
+        Sundanese Automatic Speech Recognition
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sundanese/language-model/" class="md-nav__link">
+        Sundanese Language Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sundanese/text-classification/" class="md-nav__link">
+        Sundanese Text Classification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sundanese/token-classification/" class="md-nav__link">
+        Sundanese Token Classification
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sundanese/translation/" class="md-nav__link">
+        Sundanese Machine Translation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#masked-language-models" class="md-nav__link">
+    Masked Language Models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#causalgenerative-language-models" class="md-nav__link">
+    Causal/Generative Language Models
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datasets" class="md-nav__link">
+    Datasets
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/indonesian-nlp/nlp-resources/edit/master/docs/indonesian/language-model.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+  <h1>Indonesian Language Model</h1>
+
+<h2 id="masked-language-models">Masked Language Models</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Author</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IndoConvBERT Base Model</td>
+<td>IndoConvBERT is a ConvBERT model pretrained on Indo4B.</td>
+<td>Akmal</td>
+<td><a href="https://huggingface.co/Wikidepia/IndoConvBERT-base">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian BERT Base 1.5G (uncased)</td>
+<td>It is BERT-base model pre-trained with indonesian Wikipedia and indonesian newspapers using a masked language modeling (MLM) objective. This model is uncased.</td>
+<td>Cahya Wirawan</td>
+<td><a href="https://huggingface.co/cahya/bert-base-indonesian-1.5G">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian BERT Base 522M (uncased)</td>
+<td>It is BERT-base model pre-trained with indonesian Wikipedia using a masked language modeling (MLM) objective. This model is uncased: it does not make a difference between indonesia and Indonesia.</td>
+<td>Cahya Wirawan</td>
+<td><a href="https://huggingface.co/cahya/bert-base-indonesian-522M">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian RoBERTa Base 522M (uncased)</td>
+<td>It is RoBERTa-base model pre-trained with indonesian Wikipedia using a masked language modeling (MLM) objective. This model is uncased: it does not make a difference between indonesia and Indonesia.</td>
+<td>Cahya Wirawan</td>
+<td><a href="https://huggingface.co/cahya/roberta-base-indonesian-522M">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian DistilBERT Base (uncased)</td>
+<td>This model is a distilled version of the Indonesian BERT base model. This model is uncased. This is one of several other language models that have been pre-trained with indonesian datasets.</td>
+<td>Cahya Wirawan</td>
+<td><a href="https://huggingface.co/cahya/distilbert-base-indonesian">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoELECTRA</td>
+<td>IndoELECTRA is a pre-trained language model based on ELECTRA architecture for the Indonesian Language. This model is base version which use electra-base config.</td>
+<td>Christopher Albert Lorentius</td>
+<td><a href="https://huggingface.co/ChristopherA08/IndoELECTRA">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian RoBERTa Base</td>
+<td>Indonesian RoBERTa Base is a masked language model based on the RoBERTa model. It was trained on the OSCAR dataset, specifically the unshuffled_deduplicated_id subset.</td>
+<td>Flax Community</td>
+<td><a href="https://huggingface.co/flax-community/indonesian-roberta-base">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian RoBERTa Large</td>
+<td>Indonesian RoBERTa Large is a masked language model based on the RoBERTa model. It was trained on the OSCAR dataset, specifically the unshuffled_deduplicated_id subset.</td>
+<td>Flax Community</td>
+<td><a href="https://huggingface.co/flax-community/indonesian-roberta-large">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT Base Model (phase1 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-base-p1">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT Base Model (phase2 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-base-p2">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT Large Model (phase1 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-large-p1">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT Large Model (phase2 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-large-p2">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT-Lite Base Model (phase1 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-lite-base-p1">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT-Lite Base Model (phase2 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-lite-base-p2">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT-Lite Large Model (phase1 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-lite-large-p1">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT-Lite Large Model (phase2 - uncased)</td>
+<td>IndoBERT is a state-of-the-art language model for Indonesian based on the BERT model. The pretrained model is trained using a masked language modeling (MLM) objective and next sentence prediction (NSP) objective.</td>
+<td>Indo Benchmark</td>
+<td><a href="https://huggingface.co/indobenchmark/indobert-lite-large-p2">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT Base (uncased)</td>
+<td>IndoBERT is the Indonesian version of BERT model. The model was trained using over 220M words, aggregated from three main sources: Indonesian Wikipedia, news articles, and an Indonesian Web Corpus.</td>
+<td>IndoLEM</td>
+<td><a href="https://huggingface.co/indolem/indobert-base-uncased">HuggingFace</a></td>
+</tr>
+<tr>
+<td>IndoBERT (Indonesian BERT Model)</td>
+<td>IndoBERT is a pre-trained language model based on BERT architecture for the Indonesian Language. This model is base-uncased version which use bert-base config.</td>
+<td>Sarah Lintang</td>
+<td><a href="https://huggingface.co/sarahlintang/IndoBERT">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indo RoBERTa Small</td>
+<td>Indo RoBERTa Small is a masked language model based on the RoBERTa model. It was trained on the latest (late December 2020) Indonesian Wikipedia articles.</td>
+<td>Wilson Wongso</td>
+<td><a href="https://huggingface.co/w11wo/indo-roberta-small">HuggingFace</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="causalgenerative-language-models">Causal/Generative Language Models</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Author</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPT-2 Indonesian Small Kids Stories</td>
+<td>GPT-2 Indonesian Small Kids Stories is a causal language model based on the OpenAI GPT-2 model. The model was originally the pre-trained GPT2 Small Indonesian model, which was then fine-tuned on Indonesian kids' stories from Room To Read and Let's Read.</td>
+<td>Bookbot</td>
+<td><a href="https://huggingface.co/bookbot/gpt2-indo-small-kids-stories">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian GPT2 Small 522M</td>
+<td>It is GPT2-small model pre-trained with indonesian Wikipedia using a causal language modeling (CLM) objective. This model is uncased: it does not make a difference between indonesia and Indonesia.</td>
+<td>Cahya Wirawan</td>
+<td><a href="https://huggingface.co/cahya/gpt2-small-indonesian-522M">HuggingFace</a></td>
+</tr>
+<tr>
+<td>GPT2-small-indonesian</td>
+<td>This is a pretrained model on Indonesian language using a causal language modeling (CLM) objective. The training data used for this model are Indonesian websites of OSCAR, mc4 and Wikipedia.</td>
+<td>Flax Community</td>
+<td><a href="https://huggingface.co/flax-community/gpt2-small-indonesian">HuggingFace</a></td>
+</tr>
+<tr>
+<td>GPT2-medium-indonesian</td>
+<td>This is a pretrained model on Indonesian language using a causal language modeling (CLM) objective. The training data used for this model are Indonesian websites of OSCAR, mc4 and Wikipedia.</td>
+<td>Flax Community</td>
+<td><a href="https://huggingface.co/flax-community/gpt2-medium-indonesian">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian GPT-2 finetuned on Indonesian academic journals</td>
+<td>This is the Indonesian gpt2-small model fine-tuned to abstracts of Indonesian academic journals. All training was done on a TPUv2-8 VM sponsored by TPU Research Cloud.</td>
+<td>Galuh</td>
+<td><a href="https://huggingface.co/Galuh/id-journal-gpt2">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian GPT-2-medium finetuned on Indonesian poems</td>
+<td>This is the Indonesian gpt2-medium model fine-tuned to Indonesian poems.</td>
+<td>Muhammad Agung Hambali</td>
+<td><a href="https://huggingface.co/ayameRushia/gpt2-medium-fine-tuning-indonesia-poem">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian GPT-2 finetuned on Indonesian poems</td>
+<td>This is the Indonesian gpt2-small model fine-tuned to Indonesian poems.</td>
+<td>Muhammad Agung Hambali</td>
+<td><a href="https://huggingface.co/ayameRushia/gpt2-small-indonesia-fine-tuning-poem">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indo GPT-2 Small</td>
+<td>Indo GPT-2 Small is a language model based on the GPT-2 model. It was trained on the latest (late December 2020) Indonesian Wikipedia articles.</td>
+<td>Wilson Wongso</td>
+<td><a href="https://huggingface.co/w11wo/indo-gpt2-small">HuggingFace</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="datasets">Datasets</h2>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+<th>Author</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>mC4-ID</td>
+<td>Indonesian subset of multilingual C4 dataset, filtered using script provided by <a href="https://huggingface.co/datasets/gsarti/clean_mc4_it">Clean Italian mC4</a>.</td>
+<td>Akmal, Samsul Rahmadani</td>
+<td><a href="https://huggingface.co/datasets/munggok/mc4-id">HuggingFace</a></td>
+</tr>
+<tr>
+<td>mC4-sampling</td>
+<td>This dataset builds upon the AllenAI version of the original mC4 and adds sampling methods to perform perplexity-based filtering on the fly. Please, refer to BERTIN Project.</td>
+<td>BERTIN Project &amp; Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu</td>
+<td><a href="https://huggingface.co/datasets/bertin-project/mc4-sampling">HuggingFace</a></td>
+</tr>
+<tr>
+<td>OPUS-100</td>
+<td>OPUS-100 is English-centric, meaning that all training pairs include English on either the source or target side. The corpus covers 100 languages (including English). Selected the languages based on the volume of parallel data available in OPUS.</td>
+<td>Biao Zhang and Philip Williams and Ivan Titov and Rico Sennrich</td>
+<td><a href="https://huggingface.co/datasets/opus100">HuggingFace</a></td>
+</tr>
+<tr>
+<td>mC4</td>
+<td>A multilingual colossal, cleaned version of Common Crawl's web crawl corpus. Based on Common Crawl dataset: "<a href="https://commoncrawl.org">https://commoncrawl.org</a>".</td>
+<td>Colin Raffel and Noam Shazeer and Adam Roberts and Katherine Lee and Sharan Narang and Michael Matena and Yanqi Zhou and Wei Li and Peter J. Liu</td>
+<td><a href="https://huggingface.co/datasets/mc4">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesian Newspapers 2018</td>
+<td>The dataset contains around 500K articles (136M of words) from 7 Indonesian newspapers: Detik, Kompas, Tempo, CNN Indonesia, Sindo, Republika and Poskota. The articles are dated between 1st January 2018 and 20th August 2018 (with few exceptions dated earlier).</td>
+<td>Feryandi Nurdiantoro</td>
+<td><a href="https://huggingface.co/datasets/id_newspapers_2018">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Indonesia Puisi</td>
+<td>Puisi (poem) is an Indonesian poetic form. The dataset contains 7223 Indonesian puisi with its title and author.</td>
+<td>Ilham Firdausi Putra</td>
+<td><a href="https://huggingface.co/datasets/id_puisi">HuggingFace</a></td>
+</tr>
+<tr>
+<td>OSCAR</td>
+<td>OSCAR or Open Super-large Crawled ALMAnaCH coRpus is a huge multilingual corpus obtained by language classification and filtering of the Common Crawl corpus using the goclassy architecture. Data is distributed by language in both original and deduplicated form.</td>
+<td>Ortiz Suárez, Pedro Javier and Romary, Laurent and Sagot, Benoit</td>
+<td><a href="https://huggingface.co/datasets/oscar">HuggingFace</a></td>
+</tr>
+<tr>
+<td>CC100</td>
+<td>This corpus is an attempt to recreate the dataset used for training XLM-R. This corpus comprises of monolingual data for 100+ languages and also includes data for romanized languages (indicated by *_rom). This was constructed using the urls and paragraph indices provided by the CC-Net repository by processing January-December 2018 Commoncrawl snapshots.</td>
+<td>Wenzek, Guillaume and Lachaux, Marie-Anne and Conneau, Alexis and Chaudhary, Vishrav and Guzmán, Francisco and Joulin, Armand and Grave, Edouard</td>
+<td><a href="https://huggingface.co/datasets/cc100">HuggingFace</a></td>
+</tr>
+<tr>
+<td>Wikipedia</td>
+<td>Wikipedia dataset containing cleaned articles of all languages. The datasets are built from the Wikipedia dump (<a href="https://dumps.wikimedia.org/">https://dumps.wikimedia.org/</a>) with one split per language. Each example contains the content of one full Wikipedia article with cleaning to strip markdown and unwanted sections (references, etc.).</td>
+<td>Wikimedia Foundation</td>
+<td><a href="https://huggingface.co/datasets/wikipedia">HuggingFace</a></td>
+</tr>
+</tbody>
+</table>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../automatic-speech-recognition/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Indonesian Automatic Speech Recognition" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Indonesian Automatic Speech Recognition
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../question-answering/" class="md-footer__link md-footer__link--next" aria-label="Next: Indonesian Question Answering" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Indonesian Question Answering
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.01824240.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.ff0eccb3.min.js"></script>
+      
+    
+  </body>
+</html>
