@@ -17,3 +17,4 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+docs_dir: nlp-resources
